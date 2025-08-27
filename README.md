@@ -1,7 +1,5 @@
 # 🎸 VinylFrame - PWA de Loja de Vinis
 
-![VinylFrame Banner](https://i.imgur.com/GzQ5oXF.png)
-
 **VinylFrame** é uma Progressive Web App (PWA) de uma loja de vinis fictícia, especializada em Rock e Jazz Fusion. O projeto foi desenvolvido com foco em tecnologias web modernas, design responsivo e funcionalidades offline-first.
 
 ➡️ **Status do Projeto:** Finalizado ✔️

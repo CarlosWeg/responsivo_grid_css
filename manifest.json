@@ -1,0 +1,97 @@
+{
+  "name": "VinylFrame - Rock & Jazz Fusion",
+  "short_name": "VinylFrame",
+  "description": "Loja especializada em vinis de Rock e Jazz Fusion. Qualidade e autenticidade garantidas.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#2c3e50",
+  "background_color": "#667eea",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["music", "shopping", "entertainment"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzIiIGhlaWdodD0iNzIiIHZpZXdCb3g9IjAgMCA3MiA3MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzYiIGN5PSIzNiIgcj0iMzYiIGZpbGw9InVybCgjZ3JhZGllbnQwX2NvbmljXzBfMSkiLz4KPGNpcmNsZSBjeD0iMzYiIGN5PSIzNiIgcj0iMTAiIGZpbGw9IndoaXRlIi8+CjxkZWZzPgo8cmFkaWFsR3JhZGllbnQgaWQ9ImdyYWRpZW50MF9jb25pY18wXzEiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjZmY2YjZiIi8+CjxzdG9wIG9mZnNldD0iMC4xNjY2NjciIHN0b3AtY29sb3I9IiM0ZWNkYzQiLz4KPHN0b3Agb2Zmc2V0PSIwLjMzMzMzMyIgc3RvcC1jb2xvcj0iIzQ1YjdkMSIvPgo8c3RvcCBvZmZzZXQ9IjAuNSIgc3RvcC1jb2xvcj0iIzk2Y2ViNCIvPgo8c3RvcCBvZmZzZXQ9IjAuNjY2NjY3IiBzdG9wLWNvbG9yPSIjZmVjYTU3Ii8+CjxzdG9wIG9mZnNldD0iMC44MzMzMzMiIHN0b3AtY29sb3I9IiNmZjlmZjMiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmY2YjZiIi8+CjwvcmFkaWFsR3JhZGllbnQ+CjwvZGVmcz4KPHN2Zz4=",
+      "sizes": "72x72",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNDgiIGN5PSI0OCIgcj0iNDgiIGZpbGw9InVybCgjZ3JhZGllbnQwX2NvbmljXzBfMSkiLz4KPGNpcmNsZSBjeD0iNDgiIGN5PSI0OCIgcj0iMTMiIGZpbGw9IndoaXRlIi8+CjxkZWZzPgo8cmFkaWFsR3JhZGllbnQgaWQ9ImdyYWRpZW50MF9jb25pY18wXzEiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjZmY2YjZiIi8+CjxzdG9wIG9mZnNldD0iMC4xNjY2NjciIHN0b3AtY29sb3I9IiM0ZWNkYzQiLz4KPHN0b3Agb2Zmc2V0PSIwLjMzMzMzMyIgc3RvcC1jb2xvcj0iIzQ1YjdkMSIvPgo8c3RvcCBvZmZzZXQ9IjAuNSIgc3RvcC1jb2xvcj0iIzk2Y2ViNCIvPgo8c3RvcCBvZmZzZXQ9IjAuNjY2NjY3IiBzdG9wLWNvbG9yPSIjZmVjYTU3Ii8+CjxzdG9wIG9mZnNldD0iMC44MzMzMzMiIHN0b3AtY29sb3I9IiNmZjlmZjMiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmY2YjZiIi8+CjwvcmFkaWFsR3JhZGllbnQ+CjwvZGVmcz4KPHN2Zz4=",
+      "sizes": "96x96",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjY0IiBjeT0iNjQiIHI9IjY0IiBmaWxsPSJ1cmwoI2dyYWRpZW50MF9jb25pY18wXzEpIi8+CjxjaXJjbGUgY3g9IjY0IiBjeT0iNjQiIHI9IjE3IiBmaWxsPSJ3aGl0ZSIvPgo8ZGVmcz4KPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkaWVudDBfY29uaWNfMF8xIiBjeD0iMCIgY3k9IjAiIHI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iI2ZmNmI2YiIvPgo8c3RvcCBvZmZzZXQ9IjAuMTY2NjY3IiBzdG9wLWNvbG9yPSIjNGVjZGM0Ii8+CjxzdG9wIG9mZnNldD0iMC4zMzMzMzMiIHN0b3AtY29sb3I9IiM0NWI3ZDEiLz4KPHN0b3Agb2Zmc2V0PSIwLjUiIHN0b3AtY29sb3I9IiM5NmNlYjQiLz4KPHN0b3Agb2Zmc2V0PSIwLjY2NjY2NyIgc3RvcC1jb2xvcj0iI2ZlY2E1NyIvPgo8c3RvcCBvZmZzZXQ9IjAuODMzMzMzIiBzdG9wLWNvbG9yPSIjZmY5ZmYzIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmNmI2YiIvPgo8L3JhZGlhbEdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPg==",
+      "sizes": "128x128",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9Ijk2IiBjeT0iOTYiIHI9Ijk2IiBmaWxsPSJ1cmwoI2dyYWRpZW50MF9jb25pY18wXzEpIi8+CjxjaXJjbGUgY3g9Ijk2IiBjeT0iOTYiIHI9IjI1IiBmaWxsPSJ3aGl0ZSIvPgo8ZGVmcz4KPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkaWVudDBfY29uaWNfMF8xIiBjeD0iMCIgY3k9IjAiIHI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iI2ZmNmI2YiIvPgo8c3RvcCBvZmZzZXQ9IjAuMTY2NjY3IiBzdG9wLWNvbG9yPSIjNGVjZGM0Ii8+CjxzdG9wIG9mZnNldD0iMC4zMzMzMzMiIHN0b3AtY29sb3I9IiM0NWI3ZDEiLz4KPHN0b3Agb2Zmc2V0PSIwLjUiIHN0b3AtY29sb3I9IiM5NmNlYjQiLz4KPHN0b3Agb2Zmc2V0PSIwLjY2NjY2NyIgc3RvcC1jb2xvcj0iI2ZlY2E1NyIvPgo8c3RvcCBvZmZzZXQ9IjAuODMzMzMzIiBzdG9wLWNvbG9yPSIjZmY5ZmYzIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmNmI2YiIvPgo8L3JhZGlhbEdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPg==",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMjU2IiBmaWxsPSJ1cmwoI2dyYWRpZW50MF9jb25pY18wXzEpIi8+CjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iNjciIGZpbGw9IndoaXRlIi8+CjxkZWZzPgo8cmFkaWFsR3JhZGllbnQgaWQ9ImdyYWRpZW50MF9jb25pY18wXzEiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjZmY2YjZiIi8+CjxzdG9wIG9mZnNldD0iMC4xNjY2NjciIHN0b3AtY29sb3I9IiM0ZWNkYzQiLz4KPHN0b3Agb2Zmc2V0PSIwLjMzMzMzMyIgc3RvcC1jb2xvcj0iIzQ1YjdkMSIvPgo8c3RvcCBvZmZzZXQ9IjAuNSIgc3RvcC1jb2xvcj0iIzk2Y2ViNCIvPgo8c3RvcCBvZmZzZXQ9IjAuNjY2NjY3IiBzdG9wLWNvbG9yPSIjZmVjYTU3Ii8+CjxzdG9wIG9mZnNldD0iMC44MzMzMzMiIHN0b3AtY29sb3I9IiNmZjlmZjMiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmY2YjZiIi8+CjwvcmFkaWFsR3JhZGllbnQ+CjwvZGVmcz4KPHN2Zz4=",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Catálogo",
+      "short_name": "Catálogo",
+      "description": "Navegar pelo catálogo de vinis",
+      "url": "/#catalogo",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNDgiIGN5PSI0OCIgcj0iNDgiIGZpbGw9IiM2NjdlZWEiLz4KPHN2ZyB4PSIyNCIgeT0iMjQiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHN2ZyBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik04IDNhMSAxIDAgMCAwLTEgMXYxNmExIDEgMCAwIDAgMSAxaDhhMSAxIDAgMCAwIDEtMVY0YTEgMSAwIDAgMC0xLTFIOHptMCAxaDh2MTZIOFY0eiIvPgo8cGF0aCBkPSJNMTEgOGEzIDMgMCAxIDEtNiAwIDMgMyAwIDAgMSA2IDB6TTggNmExIDEgMCAxIDEgMCAyIDEgMSAwIDAgMSAwLTJaIi8+CjwvcGF0aD4KPC9zdmc+CjwvZz4KPC9zdmc+",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Jazz Fusion",
+      "short_name": "Jazz",
+      "description": "Vinis de Jazz Fusion",
+      "url": "/#catalogo?category=jazz-fusion",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNDgiIGN5PSI0OCIgcj0iNDgiIGZpbGw9IiNmZWNhNTciLz4KPHN2ZyB4PSIyNCIgeT0iMjQiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHN2ZyBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik04IDEyYzAtMi4yMSAxLjc5LTQgNC00czQgMS43OSA0IDQtMS43OSA0LTQgNC00LTEuNzktNC00eiIvPgo8L3N2Zz4KPC9zdmc+Cjwvc3ZnPg==",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Rock",
+      "short_name": "Rock",
+      "description": "Vinis de Rock",
+      "url": "/#catalogo?category=rock-classico",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNDgiIGN5PSI0OCIgcj0iNDgiIGZpbGw9IiNmZjZiNmIiLz4KPHN2ZyB4PSIyNCIgeT0iMjQiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHN2ZyBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik04IDEyYzAtMi4yMSAxLjc5LTQgNC00czQgMS43OSA0IDQtMS43OSA0LTQgNC00LTEuNzktNC00eiIvPgo8L3N2Zz4KPC9zdmc+Cjwvc3ZnPg==",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDI0MCA1MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyNDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ1cmwoI2dyYWRpZW50MCkiLz4KPHJlY3QgeD0iMjAiIHk9IjUwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjQwMCIgcng9IjEwIiBmaWxsPSJ3aGl0ZSIgZmlsbC1vcGFjaXR5PSIwLjkiLz4KPHN2ZyB4PSIxMDAiIHk9IjEwMCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGZpbGw9InVybCgjdmlueWxHcmFkaWVudCkiLz4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iNiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cjx0ZXh0IHg9IjEyMCIgeT0iMTg1IiBmaWxsPSIjMmMzZTUwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5WaW55bEZyYW1lPC90ZXh0Pgo8dGV4dCB4PSIxMjAiIHk9IjIwNSIgZmlsbD0iIzY2NyIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5Sb2NrICYgSmF6eiBGdXNpb248L3RleHQ+CjxyZWN0IHg9IjQwIiB5PSIyNDAiIHdpZHRoPSIxNjAiIGhlaWdodD0iMTIwIiByeD0iOCIgZmlsbD0iI2Y4ZjlmYSIvPgo8dGV4dCB4PSIxMjAiIHk9IjI2MCIgZmlsbD0iIzMzMyIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q2F0w6Fsb2dvPC90ZXh0Pgo8dGV4dCB4PSI1MCIgeT0iMjg1IiBmaWxsPSIjNjY3ZWVhIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTIiPkpheno8L3RleHQ+Cjx0ZXh0IHg9IjUwIiB5PSIzMDAiIGZpbGw9IiNmZjZiNmIiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiI+Um9jazwvdGV4dD4KPHRleHQgeD0iNTAiIHk9IjMxNSIgZmlsbD0iIzI3YWU2MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIj5DbMOhc3NpY29zPC90ZXh0Pgo8dGV4dCB4PSI1MCIgeT0iMzMwIiBmaWxsPSIjZjM5YzEyIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTIiPlJhcmlkYWRlczwvdGV4dD4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQwIiB4MT0iMCIgeTE9IjAiIHgyPSIyNDAiIHkyPSI1MDAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjNjY3ZWVhIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzc2NGJhMiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8Y29uaWNHcmFkaWVudCBpZD0idmlueWxHcmFkaWVudCI+CjxzdG9wIHN0b3AtY29sb3I9IiNmZjZiNmIiLz4KPHN0b3Agb2Zmc2V0PSIuMTciIHN0b3AtY29sb3I9IiM0ZWNkYzQiLz4KPHN0b3Agb2Zmc2V0PSIuMzMiIHN0b3AtY29sb3I9IiM0NWI3ZDEiLz4KPHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iIzk2Y2ViNCIvPgo8c3RvcCBvZmZzZXQ9Ii42NyIgc3RvcC1jb2xvcj0iI2ZlY2E1NyIvPgo8c3RvcCBvZmZzZXQ9Ii44MyIgc3RvcC1jb2xvcj0iI2ZmOWZmMyIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZjZiNmIiLz4KPC9jb25pY0dyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPg==",
+      "sizes": "240x500",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}

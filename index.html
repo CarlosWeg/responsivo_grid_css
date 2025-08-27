@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VinylFrame - Rock & Jazz Fusion</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2c3e50">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <span class="logo-text">VinylFrame</span>
+            </div>
+
+            <nav class="nav-desktop">
+                <a href="#catalogo" onclick="showSection('catalogo')">Catálogo</a>
+                <a href="#sobre" onclick="showSection('sobre')">Sobre</a>
+                <a href="#contato" onclick="showSection('contato')">Contato</a>
+            </nav>
+
+            <div class="search-container">
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar vinis..." id="searchInput">
+                    <button type="submit" onclick="searchProducts()">🔍</button>
+                </div>
+                <div class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#catalogo" onclick="showSection('catalogo'); toggleMobileMenu()">Catálogo</a>
+                <a href="#sobre" onclick="showSection('sobre'); toggleMobileMenu()">Sobre</a>
+                <a href="#contato" onclick="showSection('contato'); toggleMobileMenu()">Contato</a>
+            </nav>
+        </header>
+
+        <section class="banner">
+            <h1>ROCK & JAZZ FUSION</h1>
+            <p>Descubra a melhor seleção de vinis clássicos e raros</p>
+        </section>
+
+        <!-- Seção Catálogo -->
+        <div id="catalogo-section" class="content-section active" style="display: grid; grid-template-columns: 1fr 300px; gap: 30px; align-items: start;">
+            <main>
+                <section class="products-grid" id="productsGrid">
+
+                    <div class="product-card" data-genre="rock-progressivo">
+                        <div class="product-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png" 
+                                alt="Pink Floyd - Dark Side of the Moon">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Dark Side of the Moon</h3>
+                            <p class="product-artist">Pink Floyd</p>
+                            <span class="product-genre">Rock Progressivo</span>
+                            <p class="product-price">R$ 89,90</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-genre="jazz-fusion">
+                        <div class="product-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/7/72/Bitches_brew.jpg" 
+                                alt="Miles Davis - Bitches Brew">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Bitches Brew</h3>
+                            <p class="product-artist">Miles Davis</p>
+                            <span class="product-genre">Jazz Fusion</span>
+                            <p class="product-price">R$ 95,90</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-genre="hard-rock">
+                        <div class="product-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg" 
+                                alt="Led Zeppelin IV">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Led Zeppelin IV</h3>
+                            <p class="product-artist">Led Zeppelin</p>
+                            <span class="product-genre">Hard Rock</span>
+                            <p class="product-price">R$ 79,90</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-genre="jazz-fusion">
+                        <div class="product-image">
+                            <img src="https://cdn.awsli.com.br/300x300/2279/2279925/produto/195920767/weather-report---heavy-weather-de0087d5b0.jpg" 
+                                alt="Weather Report - Heavy Weather">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Heavy Weather</h3>
+                            <p class="product-artist">Weather Report</p>
+                            <span class="product-genre">Jazz Fusion</span>
+                            <p class="product-price">R$ 110,90</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-genre="hard-rock">
+                        <div class="product-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/9/92/Deep_Purple_-_Machine_Head.jpg" 
+                                alt="Deep Purple - Machine Head">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Machine Head</h3>
+                            <p class="product-artist">Deep Purple</p>
+                            <span class="product-genre">Hard Rock</span>
+                            <p class="product-price">R$ 85,90</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-genre="jazz-fusion">
+                        <div class="product-image">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02a0edf8119d8326ed45b45bdc" 
+                                alt="Mahavishnu Orchestra - Birds of Fire">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Birds of Fire</h3>
+                            <p class="product-artist">Mahavishnu Orchestra</p>
+                            <span class="product-genre">Jazz Fusion</span>
+                            <p class="product-price">R$ 105,90</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-genre="heavy-metal">
+                        <div class="product-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/6/64/Black_Sabbath_-_Paranoid.jpg" 
+                                alt="Black Sabbath - Paranoid">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Paranoid</h3>
+                            <p class="product-artist">Black Sabbath</p>
+                            <span class="product-genre">Heavy Metal</span>
+                            <p class="product-price">R$ 82,90</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-genre="jazz-fusion">
+                        <div class="product-image">
+                            <img src="https://i.scdn.co/image/ab67616d00001e021c240ae01af9a9fe5cc5396a" 
+                                alt="Chick Corea - Return to Forever">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Return to Forever</h3>
+                            <p class="product-artist">Chick Corea</p>
+                            <span class="product-genre">Jazz Fusion</span>
+                            <p class="product-price">R$ 98,90</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-genre="rock-classico">
+                        <div class="product-image">
+                            <img src="https://regards.com.br/wp-content/uploads/2019/02/4431-BOHEMIAN-RHAPSODY-Original-Motion-Picture-Soundtrack-300x300.jpg.webp" 
+                                alt="Queen - Bohemian Rhapsody (A Night at the Opera)">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Bohemian Rhapsody</h3>
+                            <p class="product-artist">Queen</p>
+                            <span class="product-genre">Rock Clássico</span>
+                            <p class="product-price">R$ 92,90</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-genre="rock-classico" data-rare="true">
+                        <div class="product-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg" 
+                                alt="The Beatles - Abbey Road">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Abbey Road</h3>
+                            <p class="product-artist">The Beatles</p>
+                            <span class="product-genre">Rock Clássico</span>
+                            <span class="rare-badge">💎 RARO</span>
+                            <p class="product-price">R$ 150,90</p>
+                        </div>
+                    </div>
+
+                </section>
+            </main>
+
+            <aside class="sidebar">
+                <h3>Categorias</h3>
+                <a href="#" class="category-item active" onclick="filterByCategory('all')">🎵 Todos</a>
+                <a href="#" class="category-item" onclick="filterByCategory('rock-classico')">🎸 Rock Clássico</a>
+                <a href="#" class="category-item" onclick="filterByCategory('jazz-fusion')">🎺 Jazz Fusion</a>
+                <a href="#" class="category-item" onclick="filterByCategory('rock-progressivo')">🎵 Rock Progressivo</a>
+                <a href="#" class="category-item" onclick="filterByCategory('heavy-metal')">⚡ Heavy Metal</a>
+                <a href="#" class="category-item" onclick="filterByCategory('hard-rock')">🤘 Hard Rock</a>
+                <a href="#" class="category-item" onclick="filterByCategory('rare')">💎 Edições Raras</a>
+                
+                <h3 style="margin-top: 30px;">Promoções</h3>
+                <div style="background: #27ae60; color: white; padding: 15px; border-radius: 8px; text-align: center;">
+                    <h4>Frete Grátis</h4>
+                    <p>Em compras acima de R$ 150</p>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Seção Sobre -->
+        <div id="sobre-section" class="content-section">
+            <div class="about-content">
+                <h2>Sobre a VinylFrame</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>Nossa História</h3>
+                        <p>A VinylFrame nasceu da paixão pela música autêntica e pela experiência única que apenas os vinis podem proporcionar. Desde 2015, somos especializados em Rock e Jazz Fusion, oferecendo tanto clássicos atemporais quanto raridades para colecionadores.</p>
+                        
+                        <h3>Nossa Missão</h3>
+                        <p>Preservar e compartilhar a cultura musical através dos vinis, conectando gerações de amantes da música com som de qualidade superior e arte visual incomparável.</p>
+                        
+                        <h3>Qualidade Garantida</h3>
+                        <p>Todos os nossos vinis passam por rigorosa seleção e verificação de qualidade. Trabalhamos apenas com fornecedores confiáveis e oferecemos garantia de autenticidade em todos os produtos.</p>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">🎵</div>
+                            <h4>Curadoria Especializada</h4>
+                            <p>Seleção criteriosa de títulos essenciais e raridades</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🚚</div>
+                            <h4>Entrega Segura</h4>
+                            <p>Embalagem especial para proteção máxima dos vinis</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">💎</div>
+                            <h4>Autenticidade</h4>
+                            <p>Garantia de originalidade em todos os produtos</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🎧</div>
+                            <h4>Suporte Expert</h4>
+                            <p>Consultoria musical com especialistas apaixonados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção Contato -->
+        <div id="contato-section" class="content-section">
+            <div class="contact-content">
+                <h2>Entre em Contato</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contato@vinylframe.com</p>
+                                <p>vendas@vinylframe.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>(47) 9999-9999</p>
+                                <p>Segunda à Sexta: 9h às 18h</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Rio do Sul, Santa Catarina</p>
+                                <p>CEP: 89160-000</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div>
+                                <h4>Horário de Atendimento</h4>
+                                <p>Segunda à Sexta: 9h às 18h</p>
+                                <p>Sábado: 9h às 14h</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Envie uma Mensagem</h3>
+                        <form id="contactForm">
+                            <input type="text" placeholder="Seu Nome" required>
+                            <input type="email" placeholder="Seu Email" required>
+                            <input type="text" placeholder="Assunto" required>
+                            <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                            <button type="submit">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>VinylFrame</h4>
+                    <p>Sua loja especializada em vinis de Rock e Jazz Fusion. Qualidade e autenticidade garantidas.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Úteis</h4>
+                    <p><a href="#sobre" onclick="showSection('sobre')">Sobre Nós</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📧 contato@vinylframe.com</p>
+                    <p>📱 (47) 9999-9999</p>
+                    <p>📍 Rio do Sul, SC</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VinylFrame. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
